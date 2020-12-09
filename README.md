@@ -1,6 +1,6 @@
 
 
-### To view only Frontened open index.html file in frontenedOnly Folder 
+### To view only Frontened open index.html file in FrontenedOnly Folder 
 
 ### This a full stacked app to view it you have run it on your CMD :
 
