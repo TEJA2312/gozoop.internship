@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!-- assignment by 
+name: tejas shirnalkar
+email:tejas.shirnalkar@gmail.com -->
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+
+<h2  style="font-family: monospace; text-align:center; margin-top:20px"><i class="fa fa-american-sign-language-interpreting" style="font-size:60px;color: rgb(0, 134, 223); ;"></i></h2>
+<div class="alert alert-danger text-center" role="alert">
+  <b> As this was an test assignment I have added the after click modal  to the first picture block only(first from left).</b>
+</div>
+    <div class="container viewGrid">
+        <div class="row align-items-start">
+          <div class="col-md">
+            <div class="imageProduct">
+                <img  src="assets/images//yoga.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div style="font-family: monospace;" class="text">Total Body Rebalancing 
+                    <button class="btn btn-sm btn-outline-light" id="myBtn" type="button">Click here</button>
+                </div>
+                  
+                </div>
+              </div> 
+              <br>  
+              <div class="imageProduct">
+                <img  src="assets/images//yoga2.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+          <div style="font-family: monospace;" class="text">Group Yoga Therapy
+                    <button class="btn btn-sm btn-outline-light"  type="button">Click here</button>
+                </div>
+                </div>
+              </div> 
+              <br>  
+              <div class="imageProduct">
+                <img  src="assets/images//yoga3.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">MEditation Mornings 
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div> 
+          </div>
+          <br>  
+
+          <div class="col-md">
+            <div class="imageProduct">
+                <img  src="assets/images//yoga4.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">Relaxing Spas 
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div> 
+              <br>  
+              <div class="imageProduct">
+                <img  src="assets/images//yoga5.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">Aroma Room 
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div> 
+              <br>
+              <div class="imageProduct">
+                <img  src="assets/images//yoga6.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">Morning Walk 
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div> 
+          </div>
+          <div class="col-md">
+            <div class="imageProduct">
+                <img src="assets/images//yoga7.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">Beach Walking Therapy 
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div> 
+              <br>
+              <div class="imageProduct">
+                <img  src="assets/images//yoga8.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">Trekking the mountains 
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div> 
+              <br>
+              <div class="imageProduct">
+                <img  src="assets/images//yoga9.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">Guided Fishing  
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div> 
+          </div>
+          <div class="col-md">
+            <div style="width:100%; height:420px; border-radius:10px" class="card" >              
+                <div class="card-body">
+                                                
+                  <form id="myForm">            
+                    <p style="text-align: center; font-size:20px"><i class="	fa fa-address-card"></i> Enquire Now</p>    
+                    <div class="mb-3">
+                      <label style="font-size: 10px;"  class="form-label">Name</label>
+                      <input id="name" name="name" placeholder="enter name here" type="text" class="form-control form-control-sm"  aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label style="font-size: 10px;"  class="form-label">Email</label>
+                      <input id="email" name="email" placeholder="enter email here" type="email" class="form-control form-control-sm">
+                    </div>
+                    <div class="mb-3">
+                        <label style="font-size: 10px;" class="form-label">Phone</label>
+                        <input id="phone" name="phone" placeholder="enter your phone number here" type="text" class="form-control form-control-sm">
+                      </div>
+                      <div class="mb-3">
+                        <label style="font-size: 10px;" class="form-label">Country</label>
+                        <input id="country" type="text" name="country" placeholder="enter your country here" class="form-control form-control-sm">
+                      </div>
+                      <button value="Submit!" type="submit" class="btn btn-sm btn-primary">Submit</button>
+                  </form>
+                </div>               
+              </div> 
+              <br>
+              <div class="imageProduct">
+                <img  src="assets/images//yoga10.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div style="font-family: monospace;" class="text">Yoga Club 
+                        <button class="btn btn-sm btn-outline-light" type="button">Click here</button>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+<br>
+<br>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content container">
+    <span class="close">&times;</span>
+      <div class="row align-items-start">       
+        <div id="image-modal" class="col-4">       
+        </div>
+        <br>
+        <div  class="col">
+          <h4 class="text-primary">Total Body Rebalancing</h4>
+          <p class="modal-text">One study demonstrated the powerful effect of yoga on stress by following 24 women who perceived themselves as emotionally distressed.
+
+            After a three-month yoga program, the women had significantly lower levels of cortisol. They also had lower levels of stress, anxiety, fatigue and depression (4Trusted Source).
+            
+            Another study of 131 people had similar results, showing that 10 weeks of yoga helped reduce stress and anxiety. It also helped improve quality of life and mental health (5Trusted Source).
+            
+            When used alone or along with other methods of alleviating.the women had significantly lower levels of cortisol. They also had lower levels of stress, anxiety, fatigue and depression (4Trusted Source).
+            
+            Another study of 131 people had similar results, showing that 10 weeks of yoga helped reduce stress and anxiety.</p>          
+        </div> 
+      </div>
+  </div>
+</div>
+
+<script>
+
+// $(document).ready(function () {
+//   $("#thanks").hide();
+//         $('#myForm').submit(function (event) {
+//             event.preventDefault();// prevents default property-refresh
+//             //collect the form data using Id Selector what ever data you need to send to server         
+//              $("#myForm").fadeOut(); 
+//              $("#thanks").fadeIn();
+//             let name=$('#name').val();//collect form data
+//             let email= $('#email').val();
+//             let phone= $('#phone').val();//collect form data
+//             let country=$('#country').val();//collect form data
+//             document.getElementById('myForm').reset();// reset form val after submit
+//             $("#refresh").load(" #refresh > *");//reloads the div #refresh without reloading the page
+
+//             $.ajax({
+//                 url: '/enquiry',
+//                 data: JSON.stringify({"name": name, "email": email,"phone":phone,"country":country }),
+//                 processData: false,
+//                 type: 'POST',
+//                 contentType: 'application/json',
+//                 success: function () {}//fucking useless
+//             });
+//         });
+//     });
+
+
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
+
+</body>
+</html>

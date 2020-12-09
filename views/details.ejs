@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="card text-center">
+        <div class="card-header">
+          details of the people who enquired
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <% docs.forEach(function(docs) { %>
+                <li style="text-align: left;" class="list-group-item"><p>name: <%=docs.name%></p>
+                    <p>email: <%=docs.email%></p>
+                    <p>phone: <%=docs.phone%></p>
+                    <p>country: <%=docs.country%></p>
+                </li>
+              <%});%>
+              </ul>
+        </div>
+        <div class="card-footer text-muted">
+          2 days ago
+        </div>
+      </div>
+      </div>
+</body>
+</html>
